@@ -10,18 +10,20 @@ namespace TriangleXUnitTests
 {
     public class XUnitTests : IDisposable
     {
+        static Logger logger = new Logger("xUnit");
+
         readonly int Equilateral = 1;
         readonly int Isosceles = 2;
         readonly int Scalene = 3;
 
         public XUnitTests()
         {
-            Console.WriteLine("Test initialization");
+            logger.Log("Test initialization");
         }
 
         public void Dispose()
         {
-            Console.WriteLine("Test cleanup");
+            logger.Log("Test cleanup");
         }
 
         [Fact]

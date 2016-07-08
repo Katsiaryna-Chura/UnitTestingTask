@@ -12,30 +12,31 @@ namespace TriangleMSTests
     [TestClass]
     public class AbstractTest
     {
+        protected static Logger logger = new Logger("MSTest");
         public TestContext TestContext { get; set; }
 
-        [ClassInitialize()]
+        [ClassInitialize]
         public static void ClassInitialize(TestContext context)
         {
-            Console.WriteLine("Base class initialize");
+            logger.Log("Base class initialize");
         }
 
-        [ClassCleanup()]
+        [ClassCleanup]
         public static void ClassCleanup()
         {
-            Console.WriteLine("Base class cleanup");
+            logger.Log("Base class cleanup");
         }
 
         [TestInitialize]
         public void TestInitialize()
         {
-            Console.WriteLine($"Test named '{TestContext.TestName}' initialize");
+            logger.Log($"Test named '{TestContext.TestName}' initialize");
         }
 
         [TestCleanup]
         public void TestCleanup()
         {
-            Console.WriteLine("Test cleanup");
+            logger.Log("Test cleanup");
         }
     }
 }

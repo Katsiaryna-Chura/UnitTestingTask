@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="orderedtest1" storage="c:\users\katsiaryna_chura@epam.com\documents\visual studio 2015\projects\unittestingtask\trianglemstests\orderedtest1.orderedtest" id="14522573-d57f-4906-a0fd-379f5992df8b" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="2dd9320c-8759-bf97-ee80-f0e913257a39" name="DetectIncorrectScaleneTest" storage="bin\debug\trianglemstests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="3a7e20b0-ca03-bcb2-3c49-d21b1ad195ae" name="DetectIncorrectIsoscelesTest" storage="bin\debug\trianglemstests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="b519a6ff-5a8c-6bc3-a7d2-42b8babb08d7" name="DetectIncorrectEquilateralTest" storage="bin\debug\trianglemstests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>
